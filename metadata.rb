@@ -6,7 +6,7 @@ description       'Installs/Configures PHPMyAdmin'
 long_description   IO.read(File.join(File.dirname(__FILE__), 'README.md')).chomp
 version            IO.read(File.join(File.dirname(__FILE__), 'VERSION')).chomp rescue '0.1.0'
 
-depends           'php'
+# depends           'php'
 
 recommends        'nginx'
 recommends        'apache2'
